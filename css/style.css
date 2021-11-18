@@ -96,8 +96,6 @@ img {
 #noti .page-title {
   text-align: center;
 }
-
-
 /*------- footer ---------*/
 footer {
   background: #432;
@@ -186,6 +184,93 @@ aside p {
 .sub-menu a:hover {
   color: #0bd;
 }
+/*------- 수업일정 ---------*/
+
+/*------- 커리큘럼---------*/
+#curri {
+  background-color: #76cab5;
+  height: 270px;
+  margin-bottom: 40px;
+}
+#curri .page-title {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+.item-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #009bc6;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.item-description {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #009bc6;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.grid p {
+  font-size: 1.25rem;
+  background: #f6f0cc;
+  color: #000;
+  border-radius: 5px;
+  padding: 18px 32px;
+  margin-bottom: 0;
+}
+.grid img {
+  width: 225px;
+  height: 190px;
+}
+
+
+/*------- class 수업안내 ---------*/
+#class {
+  background-color: #a0d081;
+  /* background-color: #d2d200; */
+  height: 270px;
+  margin-bottom: 40px;
+}
+#class .page-title {
+  text-align: center;
+}
+.class-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.post-contents {
+  border-bottom: 1px #ddd solid;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+.bullet {
+  width: 90px;
+  height: 90px;
+  top: 0px;
+}
+.class-title {
+  margin-left: 100px;
+  padding-top: 15px;
+}
+.post-contents ul {
+  line-height: 2rem;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+/*------- class 수업안내(작품사진) ---------*/
+.works img {
+  width: 270px;
+  height: 220px;
+}
+
+/*------- 모바일 버전---------*/
 @media (max-width: 600px) {
   .page-title {
     font-size: 2.5rem;
@@ -198,9 +283,63 @@ aside p {
   .main-nav li {
     margin: 0 20px;
   }
-
   /* HOME */
   .home-content {
     margin-top: 20%;
   }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* notification */
+  .noti-contents {
+    flex-direction: column;
+  }
+
+  article,
+  aside {
+    width: 100%;
+  }
+
+  #noti .page-title {
+    margin-top: 30px;
+  }
+  aside {
+    margin-top: 60px;
+  }
+  .post-info {
+    margin-bottom: 30px;
+  }
+  .post-date {
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+  }
+  .post-date span {
+    font-size: 0.875rem;
+    padding-top: 2px;
+  }
+  .post-title {
+    font-size: 1.375rem;
+  }
+  .post-cat {
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+  .post-title,
+  .post-cat {
+    margin-left: 80px;
+  }
+  /* curri */
+  #curri .page-title {
+    margin-top: 30px;
+  }
+  /* class */
+  .class-contents {
+    flex-direction: column;
+  }
+  #class .page-title {
+    margin-top: 30px;
+  }
 }
+
