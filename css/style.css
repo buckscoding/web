@@ -334,6 +334,10 @@ aside p {
   #curri .page-title {
     margin-top: 30px;
   }
+  .grid img {
+    width: 175px;
+    height: 140px;
+  }
   /* class */
   .class-contents {
     flex-direction: column;
