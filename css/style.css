@@ -271,7 +271,7 @@ aside p {
 }
 
 /*------- 모바일 버전---------*/
-@media (max-width: 400px) {
+@media (max-width: 350px) {
   .page-title {
     font-size: 2.5rem;
   }
