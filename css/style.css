@@ -269,7 +269,10 @@ aside p {
   width: 270px;
   height: 220px;
 }
-
+/*------- 미디어 ---------*/
+iframe {
+  width: 100%;
+}
 /*------- 모바일 버전---------*/
 @media (max-width: 600px) {
   .page-title {
@@ -343,10 +346,6 @@ aside p {
   }
   #class .page-title {
     margin-top: 30px;
-  }
-  /*------- 미디어 ---------*/
-  iframe {
-    width: 100%;
   }
 }
 
