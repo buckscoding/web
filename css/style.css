@@ -271,7 +271,7 @@ aside p {
 }
 
 /*------- 모바일 버전---------*/
-@media (max-width: 350px) {
+@media (max-width: 600px) {
   .page-title {
     font-size: 2.5rem;
   }
@@ -285,7 +285,10 @@ aside p {
   }
   /* HOME */
   .home-content {
-    margin-top: 20%;
+    margin-top: 30%;
+  }
+  #home p {
+    font-size: 1.725rem;
   }
   .page-header {
     flex-direction: column;
