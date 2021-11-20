@@ -290,9 +290,6 @@ iframe {
   .home-content {
     margin-top: 30%;
   }
-  #home p {
-    font-size: 1.725rem;
-  }
   .page-header {
     flex-direction: column;
     align-items: center;
